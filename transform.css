@@ -1,0 +1,241 @@
+.parent{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    margin: auto;
+}
+.parent .box{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+
+}
+.box-1{
+    background-color: darksalmon;
+    width:100px;
+    height: 100px;
+  /* padding: 30px;
+  margin: 20px; */
+
+}
+
+.box-2{
+    background-color: dimgrey;
+    width:100px;
+    height: 100px;
+ 
+  margin: 50px;
+
+}
+
+div .box:nth-of-type(1) .box-1{
+    transition: all linear 1s;
+}
+div .box:nth-of-type(1) .box-1:hover{
+    transform: rotate(45deg)
+}
+
+div .box:nth-of-type(2) .box-1{
+    transition: all linear 1s;
+}
+div .box:nth-of-type(2) .box-1:hover{
+    transform: rotateX(45deg);
+}
+
+div .box:nth-of-type(3) .box-1{
+    transition: all linear 1s;
+}
+div .box:nth-of-type(3) .box-1:hover{
+    transform: rotatey(45deg);
+}
+
+
+div .box:nth-of-type(4) .box-1{
+    transition: all linear 1s;
+}
+div .box:nth-of-type(4) .box-1:hover{
+    transform: scale(1.5);
+}
+
+
+div .box:nth-of-type(5) .box-1{
+    transition: all linear 1s;
+}
+div .box:nth-of-type(5) .box-1:hover{
+    transform: scalex(2);
+}
+
+
+div .box:nth-of-type(6) .box-1{
+    
+    transition: all linear 1s;
+}
+div .box:nth-of-type(6) .box-1:hover{
+  transform: translateX(50px);
+   
+}
+
+div .box:nth-of-type(7) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(7) .box-1:hover{
+    transform: translate(50px, 50px);
+  }
+
+  div .box:nth-of-type(8) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(8) .box-1:hover{
+    transform: skewy(45deg);
+  }
+
+  div .box:nth-of-type(9) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(9) .box-1:hover{
+    transform: skew(45deg);
+  }
+
+  div .box:nth-of-type(10) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(10) .box-1:hover{
+    transform: scaley(2);
+  }
+  
+
+div .box:nth-of-type(11) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(11) .box-1:hover{
+    transform: translateY(50px);
+  }
+
+  div .box:nth-of-type(12) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(12) .box-1:hover{
+    transform: skewY(45deg) scale(2);
+  }
+
+  div .box:nth-of-type(12) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(12) .box-1:hover{
+    transform: perspective(100px) rotateY(45deg);
+  }
+
+  div .box:nth-of-type(13) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(13) .box-1:hover{
+    transform: perspective(100px) rotatex(50deg);
+  }
+  
+  div .box:nth-of-type(14) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(14) .box-1:hover{
+    transform-origin: top right;
+    transform: rotate(45deg);
+  }
+
+  div .box:nth-of-type(15) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(15) .box-1:hover{
+    transform-origin: bottom left;
+    transform: rotate(45deg);
+  }
+
+  div .box:nth-of-type(16) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(16) .box-1:hover{
+    transform-origin: bottom;
+    transform: perspective(200px) rotatex(30deg);
+  }
+
+  div .box:nth-of-type(17) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(17) .box-1:hover{
+    transform-origin: top;
+    transform: perspective(200px) rotatex(45deg);
+  }
+
+  div .box:nth-of-type(18) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(18) .box-1:hover{
+    transform-origin: left;
+    transform:  perspective(200px) rotateY(30deg);
+  }
+
+  div .box:nth-of-type(19) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(19) .box-1:hover{
+    transform-origin: left;
+    transform:  scaleX(2);
+  }
+
+  div .box:nth-of-type(20) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(20) .box-1:hover{
+    transform-origin: right;
+    transform:  scaleX(2);
+  }
+
+  div .box:nth-of-type(21) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(21) .box-1:hover{
+    transform-origin: bottom left;
+    transform:  scale(2);
+  }
+
+
+  div .box:nth-of-type(22) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(22) .box-1:hover{
+    transform-origin: top right;
+    transform:  scale(2);
+  }
+
+  div .box:nth-of-type(23) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(23) .box-1:hover{
+    transform-origin: right;
+    transform: perspective(200px) rotatey(60deg);
+  }
+  
+  div .box:nth-of-type(24) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(24) .box-1:hover{
+    transform-origin: top;
+    transform: scaleY(2);
+  }
+
+
+  div .box:nth-of-type(25) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(25) .box-1:hover{
+    transform-origin: bottom;
+    transform: scaleY(2);
+  }
+
+  div .box:nth-of-type(26) .box-1{  
+    transition: all linear 1s;
+  }
+  div .box:nth-of-type(26) .box-1:hover{
+        transform: skewy(45deg) scale(2);
+      }
